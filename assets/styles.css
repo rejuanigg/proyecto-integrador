@@ -17,6 +17,11 @@
     --secondary-pink: #d4939d;
 }
 
+html{
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth
+}
+
 /*Fonts*/
 
   /*Text*/
@@ -59,3 +64,12 @@
   margin-left: 20px;
 }
 
+/*Main*/
+
+.main {
+  margin-top: 75px;
+  height: 100vh;
+  background: url(./hero/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
