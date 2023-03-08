@@ -1,41 +1,75 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;800&family=Tilt+Warp&display=swap');
 
 :root {
-    --purple: #232946;
-    --pink: #eebbc3;
-    --skyblue: #b8c1ec;
-    --white: #fffffe;
-    --blue: #121629;
-    --secondary-bluesky: #d4d8f0;
-    --secondary-pink: #d4939d;
+  --purple: #232946;
+  --pink: #eebbc3;
+  --skyblue: #b8c1ec;
+  --white: #fffffe;
+  --blue: #121629;
+  --secondary-bluesky: #d4d8f0;
+  --secondary-pink: #d4939d;
+}
+
+html{
+scroll-padding-top: 80px;
+scroll-behavior: smooth
 }
 
 /*Fonts*/
 
-  /*Text*/
+/*Text*/
 
 /*font-family: 'Golos Text', sans-serif;*/
 
-  /*Titles*/
+/*Titles*/
 
 /*font-family: 'Tilt Warp', cursive;*/
 
 /*Header*/
 
 .header{
-    height: 75px;
-    background-color: var(--purple);
-    width: 100%;
+height: 75px;
+background-color: var(--purple);
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
 }
 
-.navbar-list a{
-    font-family: 'Golos Text', sans-serif;
-    text-decoration: none;
-    display: flex;
+
+.navbar-list {
+display: flex;
+gap: 80px;
+margin-right: 20px;
+}
+
+.navbar-list a {
+font-family: 'Golos Text', sans-serif;
+color: var(--skyblue);
+text-decoration: none;
+font-weight: 600;
+}
+
+.shnow-icon {
+height: 70px;
+margin-left: 20px;
+}
+
+/*Main*/
+
+.main {
+margin-top: 75px;
+height: 100vh;
+background: url(./hero/background.svg);
+background-repeat: no-repeat;
+background-size: cover;
 }
