@@ -8,13 +8,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;800&family=Tilt+Warp&display=swap');
 
 :root {
-    --purple: #232946;
-    --pink: #eebbc3;
-    --skyblue: #b8c1ec;
-    --white: #fffffe;
-    --blue: #121629;
-    --secondary-bluesky: #d4d8f0;
-    --secondary-pink: #d4939d;
+  --purple: #232946;
+  --pink: #eebbc3;
+  --skyblue: #b8c1ec;
+  --white: #fffffe;
+  --blue: #121629;
+  --secondary-bluesky: #d4d8f0;
+  --secondary-pink: #d4939d;
 }
 
 html{
@@ -24,11 +24,11 @@ html{
 
 /*Fonts*/
 
-  /*Text*/
+/*Text*/
 
 /*font-family: 'Golos Text', sans-serif;*/
 
-  /*Titles*/
+/*Titles*/
 
 /*font-family: 'Tilt Warp', cursive;*/
 
