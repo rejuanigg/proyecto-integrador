@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;800&family=Tilt+Warp&display=swap');
+
+:root {
+    --purple: #232946;
+    --pink: #eebbc3;
+    --skyblue: #b8c1ec;
+    --white: #fffffe;
+    --blue: #121629;
+    --secondary-bluesky: #d4d8f0;
+    --secondary-pink: #d4939d;
+}
+
+/*Fonts*/
+
+  /*Text*/
+
+/*font-family: 'Golos Text', sans-serif;*/
+
+  /*Titles*/
+
+/*font-family: 'Tilt Warp', cursive;*/
+
+/*Header*/
+
+.header{
+    height: 75px;
+    background-color: var(--purple);
+    width: 100%;
+}
+
+.navbar-list a{
+    font-family: 'Golos Text', sans-serif;
+    text-decoration: none;
+    display: flex;
+}
