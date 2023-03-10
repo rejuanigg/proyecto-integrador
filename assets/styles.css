@@ -5,7 +5,10 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;800&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 :root {
   --purple: #232946;
   --pink: #eebbc3;
@@ -121,6 +124,8 @@ html{
   height: 40px;
   width: 300px;
   border-radius: 10px;
+  font-family: 'Jost', sans-serif;
+  
 }
 
 
@@ -160,7 +165,8 @@ html{
   -webkit-background-clip: text;
   color: transparent;
   font-size: 45px;
-  font-family: 'Tilt Warp', cursive;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
 }
 
 .about-us-info p {
@@ -225,13 +231,14 @@ html{
   background: linear-gradient(90deg, rgba(184,193,236,1) 0%, rgba(238,187,195,1) 50%, rgba(212,147,157,1) 100%);
   -webkit-background-clip: text;
   color: transparent;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 900;
   font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
+  letter-spacing: 1.5px;
 }
 
 .card {
